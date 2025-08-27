@@ -71,7 +71,7 @@ const Input = () => {
             <input type="text" value={Todo} placeholder='Enter Your Task' className='mt-2 block bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md pl-2.5 h-10 w-full text-[18px]' onChange={heandelChange} />
             <button className='cursor-pointer mt-3 px-8 py-3 bg-white/20 border border-white/30 rounded-xl text-white hover:bg-cyan-400/90 hover:text-black duration-500 linear text-[18px] hover:font-semibold' onClick={heandelClick}>Submit</button>
             <button className='block mt-10'>
-                <a href="https://to-do-rafin-default-rtdb.firebaseio.com/" className='underline'>Click Me For Database</a>
+                <a href="https://to-do-rafin-default-rtdb.firebaseio.com/" className='underline' target="blank">Click Me For Database</a>
             </button>
         </div>
     )
