@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { MdAddTask } from "react-icons/md";
+import { FaTasks } from "react-icons/fa";
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import { getDatabase, push, ref, set, onValue } from "firebase/database";
-import { CiGift } from 'react-icons/ci';
-import { FaTasks } from "react-icons/fa";
 
 
 const Input = () => {
