@@ -1,16 +1,12 @@
 import React from 'react'
 import Input from './Component/Input'
-import { FaTasks } from "react-icons/fa";
+
 
 
 const App = () => {
   return (
-    <div className='h-screen w-full  pt-20 bg-[#1e293b]'>
-      <div className="container m-auto bg-[#3c4454] w-[800px] p-25 rounded-4xl">
-        <h1 className='text-4xl font-bold py-15 bg-cyan-400 w-[600px] pl-30 rounded-tl-[40px] rounded-tr-[40px] flex items-center gap-4'>
-          <FaTasks />
-          To Do Application
-        </h1>
+    <div className='w-full min-h-screen py-15 flex items-center justify-center bg-[#1e293b]'>
+      <div className="container w-[800px] bg-[#3c4454] p-25 rounded-4xl">
         <Input />
       </div>
     </div>
